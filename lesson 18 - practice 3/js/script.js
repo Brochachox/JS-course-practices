@@ -69,7 +69,7 @@ function writeYourGenres() {
     while (i < 3) {
         genre = prompt(`ВВедите ваш любимый жанр под номером ${i + 1}`);
         if (genre != '' && genre != null && isNaN(genre)) {
-            personalMovieDB.genres[i] = a;
+            personalMovieDB.genres[i] = genre;
             i++;
         }
     }
